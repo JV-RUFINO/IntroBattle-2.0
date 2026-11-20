@@ -1,0 +1,32 @@
+[   
+    ["banco_dados","Personagens"],
+    ".png",
+    {
+        "aliados":  {
+            "paladino"          : ["down","escolhivel","idle","selecionada"],
+            "wizard"            : ["down","escolhivel","idle","selecionada"],
+            "hunter"            : ["down","escolhivel","idle","selecionada"],
+            "curandeiro"        : ["down","escolhivel","idle","selecionada"],
+            "rougue 2nd version": ["down","escolhivel","idle","selecionada"]
+        },
+        "inimigos": {
+            "caveira"           : ["down","escolhivel","idle","selecionada"],
+            "Lady Medusa"       : ["down","escolhivel","idle","selecionada"],
+            "lacaios_desalmados": {
+                "arqueiros"     : {
+                    "cinza":["down","escolhivel","idle","selecionada"],
+                    "elite":["down","escolhivel","idle","selecionada"]},
+                "brutos"        : {
+                    "cinza":["down","escolhivel","idle","selecionada"],
+                    "elite":["down","escolhivel","idle","selecionada"]},
+                "espadachins"   : {
+                    "cinza":["down","escolhivel","idle","selecionada"],
+                    "elite":["down","escolhivel","idle","selecionada"]},
+                "lanceiros"     : {
+                    "cinza":["down","escolhivel","idle","selecionada"],
+                    "elite":["down","escolhivel","idle","selecionada"]},
+                "soldados"      : {
+                    "cinza":["down","escolhivel","idle","selecionada"],
+                    "elite":["down","escolhivel","idle","selecionada"]}}
+        }}
+]

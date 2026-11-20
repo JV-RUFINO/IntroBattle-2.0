@@ -1,0 +1,7 @@
+ESSE É O RESULTADO DA FUNÇÃO 'PIP LIST':
+
+Package   Version
+--------- -------
+pip       26.1.2
+pygame-ce 2.5.8
+
