@@ -13,11 +13,11 @@ from box_exterior       import Magi , Stat
 from box_exterior       import Linkzin
 from box_exterior       import Projetil
 
-from status.Ataque              import Ataque 
-from status.Defesa              import Defesa
+from status.Ataque      import Ataque 
+from status.Defesa      import Defesa
 
 # IMPORTAÇÕES GERAIS
-from os                         import getcwd
+from os                 import getcwd
 import json
 
 '=== CÓDIGO REAL ==='

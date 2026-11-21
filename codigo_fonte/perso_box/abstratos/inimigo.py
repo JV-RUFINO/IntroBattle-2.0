@@ -7,21 +7,21 @@ caminho.append(str(raiz))
 
 
 # ESSENCIAIS
-from box_exterior                import Perso
+from box_exterior               import Perso
 
 # PERSONAGEM
-from motor_exterior                 import Personagem 
+from motor_exterior             import Personagem 
 
 try:
-    from introbattle_perso          import Perso_geral
+    from introbattle_perso      import Perso_geral
 except ModuleNotFoundError:
-    from .introbattle_perso         import Perso_geral
+    from .introbattle_perso     import Perso_geral
 
 # STATUS
-from box_exterior                   import Status
+from box_exterior               import Status
 
 # PYGAME
-from pygame                         import Surface  as Superficie 
+from pygame                     import Surface  as Superficie 
 
 
 '=== CÓDIGO REAL ==='

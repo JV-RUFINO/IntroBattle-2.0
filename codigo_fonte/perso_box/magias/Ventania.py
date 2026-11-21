@@ -13,10 +13,10 @@ from box_exterior       import Magi , Stat
 from box_exterior       import Linkzin
 from box_exterior       import Projetil
 
-from status.Velocidade         import Velocidade
+from status.Velocidade  import Velocidade
 
 # IMPORTAÇÕES GERAIS
-from os                         import getcwd
+from os                 import getcwd
 import json
 
 

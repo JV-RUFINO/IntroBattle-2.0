@@ -7,27 +7,27 @@ caminho.append(str(raiz))
 
 
 # EXTERIOR
-from box_exterior                 import Estado , Stat , Perso, Condicao
-from box_exterior                 import Imagem_Opcoes
+from box_exterior           import Estado , Stat , Perso, Condicao
+from box_exterior           import Imagem_Opcoes
 
 # STATUS
-from status.Vida                    import Vida
-from status.Ataque                  import Ataque
-from status.Velocidade              import Velocidade
-from status.Defesa                  import Defesa
-from status.Carga                   import Carga
+from status.Vida            import Vida
+from status.Ataque          import Ataque
+from status.Velocidade      import Velocidade
+from status.Defesa          import Defesa
+from status.Carga           import Carga
 
 # PERSONAGEM
-from box_exterior                 import Personagem 
+from box_exterior           import Personagem 
 
 # STATUS
-from box_exterior                 import Status
+from box_exterior           import Status
 
 # MAGIAS
-from box_exterior                 import Magias
+from box_exterior           import Magias
 
 # PYGAME
-from pygame                         import Surface  as Superficie , Color as Cor
+from pygame                 import Surface  as Superficie , Color as Cor
 
 
 '=== CÓDIGO REAL ==='

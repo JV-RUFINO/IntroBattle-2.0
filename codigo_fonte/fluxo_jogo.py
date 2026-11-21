@@ -19,42 +19,42 @@ try:
     from criadores_batalha      import Printar
 
     # PERSONAGENS
-    from perso_box          import Paladino,Ladino,Suporte,Caçadora,Maga
-    from perso_box          import Esqueleto, Lady_Medusa
+    from perso_box              import Paladino,Ladino,Suporte,Caçadora,Maga
+    from perso_box              import Esqueleto, Lady_Medusa
 
     # FASES BATTLE
-    from fases_battle       import Menu_Inicial , Criar_Menu_inicial
-    from fases_battle       import Selecionar_Personagens 
-    from fases_battle       import Enfrentar_Inimigos , criar_chefona , criar_esqueletos , criar_lacaios , Menu_Batalha
-    from fases_battle       import Conclusao
+    from fases_battle           import Menu_Inicial , Criar_Menu_inicial
+    from fases_battle           import Selecionar_Personagens 
+    from fases_battle           import Enfrentar_Inimigos , criar_chefona , criar_esqueletos , criar_lacaios , Menu_Batalha
+    from fases_battle           import Conclusao
 except ModuleNotFoundError:
     # MOTOR PYGAME
-    from .motor_exterior         import  Seleção_Horizontal , Seleção_Vertical
-    from .motor_exterior         import  Macro_ambiente
-    from .motor_exterior          import  Personagem
+    from .motor_exterior        import  Seleção_Horizontal , Seleção_Vertical
+    from .motor_exterior        import  Macro_ambiente
+    from .motor_exterior        import  Personagem
 
     # CELEBRO -- CRIADORES
-    from .criadores_batalha      import Criar_Batalha
-    from .criadores_batalha      import Printar_Seleção_Perso as PSP
-    from .criadores_batalha      import Printar_Combatentes
-    from .criadores_batalha      import Printar_Chefao
-    from .criadores_batalha      import Printar
+    from .criadores_batalha     import Criar_Batalha
+    from .criadores_batalha     import Printar_Seleção_Perso as PSP
+    from .criadores_batalha     import Printar_Combatentes
+    from .criadores_batalha     import Printar_Chefao
+    from .criadores_batalha     import Printar
 
     # PERSONAGENS
-    from .perso_box          import Paladino,Ladino,Suporte,Caçadora,Maga
-    from .perso_box          import Esqueleto, Lady_Medusa
+    from .perso_box             import Paladino,Ladino,Suporte,Caçadora,Maga
+    from .perso_box             import Esqueleto, Lady_Medusa
 
     # FASES BATTLE
-    from .fases_battle       import Menu_Inicial , Criar_Menu_inicial
-    from .fases_battle       import Selecionar_Personagens 
-    from .fases_battle       import Enfrentar_Inimigos , criar_chefona , criar_esqueletos , criar_lacaios , Menu_Batalha
-    from .fases_battle       import Conclusao
+    from .fases_battle          import Menu_Inicial , Criar_Menu_inicial
+    from .fases_battle          import Selecionar_Personagens 
+    from .fases_battle          import Enfrentar_Inimigos , criar_chefona , criar_esqueletos , criar_lacaios , Menu_Batalha
+    from .fases_battle          import Conclusao
 
 # PYGAME
 import pygame
-from pygame             import Surface  as Superficie, Color as Cor, Rect as Retangulo
-from pygame             import QUIT as SAIR_X , K_RETURN as ENTER , KEYUP
-from pygame.event       import Event , event_name
+from pygame                     import Surface  as Superficie, Color as Cor, Rect as Retangulo
+from pygame                     import QUIT as SAIR_X , K_RETURN as ENTER , KEYUP
+from pygame.event               import Event 
 
 
 '=== CÓDIGO REAL ==='
